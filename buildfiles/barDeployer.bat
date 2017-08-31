@@ -1,0 +1,1 @@
+mqsiprofile & mqsideploy TESTNODE_user -e default -a D:\technology\IIB\deployment\test1.bar
