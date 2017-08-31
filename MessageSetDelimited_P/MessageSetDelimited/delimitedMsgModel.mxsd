@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="ENO" type="xsd:int"/>
+  <xsd:element name="ENAME" type="xsd:string"/>
+  <xsd:element name="ECITY" type="xsd:string"/>
+  <xsd:complexType name="ERECORD">
+    <xsd:annotation>
+      <xsd:appinfo source="WMQI_APPINFO">
+        <tdsStructRep dataElementSeparation="AllElementsDelimited" delimiter=":" messageSetDefaultRep="Text1"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="ENO"/>
+      <xsd:element ref="ENAME"/>
+      <xsd:element ref="ECITY"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="ERECORD" type="ERECORD">
+    <xsd:annotation>
+      <xsd:appinfo source="WMQI_APPINFO">
+        <MRMessage messageDefinition="/0/ERECORD;XSDElementDeclaration=3$MRObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:element>
+</xsd:schema>
