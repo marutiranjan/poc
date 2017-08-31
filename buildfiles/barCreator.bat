@@ -1,0 +1,1 @@
+mqsicreatebar -data C:\Program Files (x86)\Jenkins\workspace\poc\default -b D:\technology\IIB\deployment\test1.bar -a Test
