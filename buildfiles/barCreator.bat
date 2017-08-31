@@ -1,1 +1,1 @@
-mqsicreatebar -data "C:\Program Files (x86)\Jenkins\workspace\poc" -b D:\technology\IIB\deployment\test1.bar -a MessageSETTest_Http Test
+mqsicreatebar -data "C:\Program Files (x86)\Jenkins\workspace\poc" -b D:\technology\IIB\deployment\dev.bar -a MessageSETTest_Http Test
