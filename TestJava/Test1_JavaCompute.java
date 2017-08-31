@@ -12,6 +12,7 @@ public class Test1_JavaCompute extends MbJavaComputeNode {
 		MbOutputTerminal out = getOutputTerminal("out");
 		MbOutputTerminal alt = getOutputTerminal("alternate");
 		
+		
 		MbMessage inMessage = inAssembly.getMessage();
 		
 		MbMessageAssembly outAssembly = null;
