@@ -11,7 +11,6 @@ public class Test1_JavaCompute extends MbJavaComputeNode {
 	public void evaluate(MbMessageAssembly inAssembly) throws MbException {
 		MbOutputTerminal out = getOutputTerminal("out");
 		MbOutputTerminal alt = getOutputTerminal("alternate");
-		
 		MbMessage inMessage = inAssembly.getMessage();
 		
 		MbMessageAssembly outAssembly = null;
