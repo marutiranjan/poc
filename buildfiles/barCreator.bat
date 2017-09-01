@@ -1,2 +1,2 @@
 mqsicreatebar -data "C:\Program Files (x86)\Jenkins\workspace\poc" -b D:\technology\IIB\deployment\dev\dev.bar -a MessageSETTest_Http Test
-mqsiprofile & mqsiapplybaroverride -b D:\technology\IIB\deployment\dev\dev.bar -p D:\technology\IIB\deployment\dev\dev.properties -r D:\technology\IIB\deployment\dev\dev.bar
+mqsiprofile & mqsiapplybaroverride -b D:\technology\IIB\deployment\dev\dev.bar -p \buildfiles\dev.properties -r D:\technology\IIB\deployment\dev\dev.bar
